@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplicativo Secreto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="glass-container">
+      <h1>
+        APLICATIVO SECRETO LIBERADO <span class="highlight">VITALÍCIO</span> SÓ
+        <span class="highlight">R$5,00</span>
+      </h1>
+      <img src="qrcode.png" alt="QR Code PIX" class="qrcode" />
+      <p>Weslley Moura - Banco C6</p>
+
+      <p class="pix-key">
+        Chave PIX (Celular): <span id="pix-key">(81) 98877-1976</span>
+      </p>
+      <p>Copie a chave PIX para realizar o pagamento.</p>
+      <button id="copy-button">Copiar Chave PIX</button>
+      <p id="copy-message" class="hidden">Chave PIX copiada!</p>
+
+      <p>Após o pagamento, envie o comprovante pelo WhatsApp.</p>
+      <button id="whatsapp-button">WHATSAPP</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
