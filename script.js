@@ -1,3 +1,3 @@
 document.getElementById('whatsapp-button').addEventListener('click', function () {
-    window.open(`https://weslleymouradev.github.io/AppSecretoLive/`, '_self');
+    window.open(`https://www.mediafire.com/file/9owoczaqye9aepl/APP+LIBERADO.apk/file`, '_self');
 });
